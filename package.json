@@ -1,0 +1,29 @@
+{
+  "name": "audio-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json && tsc -p worker.tsconfig.json && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-dom": "^18.2.25",
+    "@types/web": "^0.0.143",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/audioworklet": "^0.0.55",
+    "@types/react": "^18.2.79",
+    "@types/wav": "^1.0.4",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
